@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AtogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AtogAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		603A4E4E1326800C00F3C2C6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603A4E4D1326800C00F3C2C6 /* Icon.png */; };
+		605A7E1F13250A0600032B04 /* AtogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A7E1E13250A0600032B04 /* AtogViewController.m */; };
+		605A7E2313250A2500032B04 /* AtogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2113250A2500032B04 /* AtogViewController.xib */; };
+		605A7E2413250A2500032B04 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2213250A2500032B04 /* MainWindow.xib */; };
+		605A7E2613250A3C00032B04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2513250A3C00032B04 /* Default.png */; };
+		605D4FAB132679A2001C1178 /* gast.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 605D4FAA132679A2001C1178 /* gast.3gp */; };
+		605D4FF813267C26001C1178 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605D4FF713267C26001C1178 /* AVFoundation.framework */; };
+		606D1A7913251A1D00638173 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 606D1A7813251A1D00638173 /* button.png */; };
+		606D1A7D13251A7F00638173 /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 606D1A7C13251A7F00638173 /* PlayButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AtogAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtogAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AtogAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtogAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Atog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Atog_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atog_Prefix.pch; sourceTree = "<group>"; };
+		603A4E4D1326800C00F3C2C6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		605A7E1D13250A0600032B04 /* AtogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtogViewController.h; sourceTree = "<group>"; };
+		605A7E1E13250A0600032B04 /* AtogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtogViewController.m; sourceTree = "<group>"; };
+		605A7E2113250A2500032B04 /* AtogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AtogViewController.xib; sourceTree = "<group>"; };
+		605A7E2213250A2500032B04 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		605A7E2513250A3C00032B04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		605D4FAA132679A2001C1178 /* gast.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = gast.3gp; sourceTree = "<group>"; };
+		605D4FF713267C26001C1178 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		606D1A7813251A1D00638173 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = Images/button.png; sourceTree = "<group>"; };
+		606D1A7B13251A7F00638173 /* PlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayButton.h; path = Components/PlayButton.h; sourceTree = "<group>"; };
+		606D1A7C13251A7F00638173 /* PlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayButton.m; path = Components/PlayButton.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Atog-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Atog-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				605D4FF813267C26001C1178 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				606D1A7A13251A7200638173 /* Components */,
+				605A7E1C13250A0600032B04 /* Controllers */,
+				1D3623240D0F684500981E51 /* AtogAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AtogAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Atog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Atog_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				603A4E4D1326800C00F3C2C6 /* Icon.png */,
+				605D4F9D132678C8001C1178 /* Sounds */,
+				605A7E2013250A2500032B04 /* XIB */,
+				605A7E13132509F000032B04 /* Images */,
+				8D1107310486CEB800E47090 /* Atog-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				605D4FF713267C26001C1178 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605A7E13132509F000032B04 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				606D1A7813251A1D00638173 /* button.png */,
+				605A7E2513250A3C00032B04 /* Default.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		605A7E1C13250A0600032B04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				605A7E1D13250A0600032B04 /* AtogViewController.h */,
+				605A7E1E13250A0600032B04 /* AtogViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		605A7E2013250A2500032B04 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				605A7E2113250A2500032B04 /* AtogViewController.xib */,
+				605A7E2213250A2500032B04 /* MainWindow.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		605D4F9D132678C8001C1178 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				605D4FAA132679A2001C1178 /* gast.3gp */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		606D1A7A13251A7200638173 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				606D1A7B13251A7F00638173 /* PlayButton.h */,
+				606D1A7C13251A7F00638173 /* PlayButton.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Atog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Atog" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atog;
+			productName = Atog;
+			productReference = 1D6058910D05DD3D006BFB54 /* Atog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Atog" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Atog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A7E2313250A2500032B04 /* AtogViewController.xib in Resources */,
+				605A7E2413250A2500032B04 /* MainWindow.xib in Resources */,
+				605A7E2613250A3C00032B04 /* Default.png in Resources */,
+				606D1A7913251A1D00638173 /* button.png in Resources */,
+				605D4FAB132679A2001C1178 /* gast.3gp in Resources */,
+				603A4E4E1326800C00F3C2C6 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AtogAppDelegate.m in Sources */,
+				605A7E1F13250A0600032B04 /* AtogViewController.m in Sources */,
+				606D1A7D13251A7F00638173 /* PlayButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jelle vandebeeck (69SR2FRH8T)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Atog_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Atog-Info.plist";
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-fobjc-nonfragile-abi2",
+				);
+				PRODUCT_NAME = Atog;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D02BEE84-3E31-48F8-B686-8DE7204B77FE";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Atog_Prefix.pch;
+				INFOPLIST_FILE = "Atog-Info.plist";
+				PRODUCT_NAME = Atog;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Atog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Atog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
