@@ -18,5 +18,7 @@
 - (IBAction)playRandomQuote:(id)sender;
 - (IBAction)connect:(id)sender;
 
+- (void)disconnect;
+
 @end
 

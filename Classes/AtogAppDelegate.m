@@ -18,19 +18,19 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    [self.window addSubview:self.viewController.view];
+	[self.window addSubview:self.viewController.view];
     [self.window makeKeyAndVisible];
 
     return YES;
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-	[[SoundController instance] loadPreferences];
-	[[SoundController instance] loadSounds];
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+	[((AtogViewController *)self.viewController) disconnect];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    NSLog(@"applicationDidBecomeActive");
+	[[SoundController instance] loadPreferences];
+	[[SoundController instance] loadSounds];
 }
 
 #pragma mark -

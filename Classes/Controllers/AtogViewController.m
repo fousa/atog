@@ -57,8 +57,6 @@
 	if (self.session) {
 		[self.session disconnectFromAllPeers];
 		self.session = nil;
-		self.bluetooth.selected = NO;
-		[self stopBlinking];
 	} else {
 		picker = [[GKPeerPickerController alloc] init];
 		picker.delegate = self;
@@ -69,6 +67,13 @@
 
 #pragma mark -
 #pragma mark Connection
+
+- (void)disconnect {
+	self.peerId = nil;
+	self.session = nil;
+	self.bluetooth.selected = NO;
+	[self stopBlinking];
+}
 
 - (GKSession *)peerPickerController:(GKPeerPickerController *)aPicker sessionForConnectionType:(GKPeerPickerConnectionType)type {
     self.session = [[GKSession alloc] initWithSessionID:nil displayName:@"Atog" sessionMode:GKSessionModePeer];

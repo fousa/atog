@@ -46,7 +46,7 @@ static SoundController *singletonSoundController = nil;
 	[_sounds release];
 	_sounds = [[NSMutableArray array] retain];
 	for (NSDictionary *aSound in allSounds) {
-		if (_dirtyAllowed || !((BOOL)[aSound objectForKey:@"dirty"])) {
+		if (_dirtyAllowed || ![[aSound objectForKey:@"dirty"] boolValue]) {
 			[_sounds addObject:((NSString *)[aSound objectForKey:@"filename"])];
 		}
 	}
@@ -55,16 +55,15 @@ static SoundController *singletonSoundController = nil;
 }
 
 - (NSString *)randomSound {
-	if ([_sounds count] > 0) {
 		int value = rand() % [_sounds count];
 		NSString *selectedSound = [_sounds objectAtIndex:value];
 		if ([selectedSound compare:_sound] == NSOrderedSame) {
 			return [self randomSound];
 		}
 		_sound = selectedSound;
-	}
 	
-	return nil;
+	
+	return _sound;
 }
 
 #pragma mark -
