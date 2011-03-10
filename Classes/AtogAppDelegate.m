@@ -8,6 +8,8 @@
 
 #import "AtogAppDelegate.h"
 
+#import "SoundController.h"
+
 @implementation AtogAppDelegate
 
 @synthesize window, viewController;
@@ -20,6 +22,15 @@
     [self.window makeKeyAndVisible];
 
     return YES;
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+	[[SoundController instance] loadPreferences];
+	[[SoundController instance] loadSounds];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    NSLog(@"applicationDidBecomeActive");
 }
 
 #pragma mark -

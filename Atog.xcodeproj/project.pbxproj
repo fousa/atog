@@ -18,6 +18,10 @@
 		603A4E4E1326800C00F3C2C6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603A4E4D1326800C00F3C2C6 /* Icon.png */; };
 		60404D2213269A06004C226B /* atog.png in Resources */ = {isa = PBXBuildFile; fileRef = 60404D2013269A06004C226B /* atog.png */; };
 		60404D2313269A06004C226B /* mouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 60404D2113269A06004C226B /* mouth.png */; };
+		604BD23913298892007A3F69 /* Sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604BD23813298892007A3F69 /* Sounds.plist */; };
+		604BD2451329890F007A3F69 /* SoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BD2441329890F007A3F69 /* SoundController.m */; };
+		604BD24813298956007A3F69 /* dude.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 604BD24613298956007A3F69 /* dude.3gp */; };
+		604BD24913298956007A3F69 /* vent.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 604BD24713298956007A3F69 /* vent.3gp */; };
 		605A7E1F13250A0600032B04 /* AtogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A7E1E13250A0600032B04 /* AtogViewController.m */; };
 		605A7E2313250A2500032B04 /* AtogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2113250A2500032B04 /* AtogViewController.xib */; };
 		605A7E2413250A2500032B04 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2213250A2500032B04 /* MainWindow.xib */; };
@@ -44,6 +48,11 @@
 		603A4E4D1326800C00F3C2C6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		60404D2013269A06004C226B /* atog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atog.png; path = Images/atog.png; sourceTree = "<group>"; };
 		60404D2113269A06004C226B /* mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mouth.png; path = Images/mouth.png; sourceTree = "<group>"; };
+		604BD23813298892007A3F69 /* Sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sounds.plist; sourceTree = "<group>"; };
+		604BD2431329890F007A3F69 /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
+		604BD2441329890F007A3F69 /* SoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundController.m; sourceTree = "<group>"; };
+		604BD24613298956007A3F69 /* dude.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = dude.3gp; sourceTree = "<group>"; };
+		604BD24713298956007A3F69 /* vent.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = vent.3gp; sourceTree = "<group>"; };
 		605A7E1D13250A0600032B04 /* AtogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtogViewController.h; sourceTree = "<group>"; };
 		605A7E1E13250A0600032B04 /* AtogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtogViewController.m; sourceTree = "<group>"; };
 		605A7E2113250A2500032B04 /* AtogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AtogViewController.xib; sourceTree = "<group>"; };
@@ -122,6 +131,7 @@
 				605A7E13132509F000032B04 /* Images */,
 				8D1107310486CEB800E47090 /* Atog-Info.plist */,
 				60FE77BE1328ED330045F50F /* Settings.bundle */,
+				604BD23813298892007A3F69 /* Sounds.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -157,6 +167,8 @@
 			children = (
 				605A7E1D13250A0600032B04 /* AtogViewController.h */,
 				605A7E1E13250A0600032B04 /* AtogViewController.m */,
+				604BD2431329890F007A3F69 /* SoundController.h */,
+				604BD2441329890F007A3F69 /* SoundController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +185,8 @@
 		605D4F9D132678C8001C1178 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				604BD24613298956007A3F69 /* dude.3gp */,
+				604BD24713298956007A3F69 /* vent.3gp */,
 				605D4FAA132679A2001C1178 /* gast.3gp */,
 			);
 			path = Sounds;
@@ -238,6 +252,9 @@
 				6017A02A1327BAD500658AAB /* bluetooth-enabled.png in Resources */,
 				6017A02B1327BAD500658AAB /* play.png in Resources */,
 				60FE77BF1328ED330045F50F /* Settings.bundle in Resources */,
+				604BD23913298892007A3F69 /* Sounds.plist in Resources */,
+				604BD24813298956007A3F69 /* dude.3gp in Resources */,
+				604BD24913298956007A3F69 /* vent.3gp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +268,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AtogAppDelegate.m in Sources */,
 				605A7E1F13250A0600032B04 /* AtogViewController.m in Sources */,
+				604BD2451329890F007A3F69 /* SoundController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

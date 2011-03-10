@@ -8,6 +8,8 @@
 
 #import "AtogViewController.h"
 
+#import "SoundController.h"
+
 @interface AtogViewController () {
 	GKPeerPickerController *picker;
 	NSArray *gameData;
@@ -31,7 +33,12 @@
 
 @implementation AtogViewController
 
-@synthesize session, peerId, bluetooth, mounth, play;
+#pragma mark -
+#pragma mark Initialization
+
+- (void)viewDidLoad {
+	[SoundController instance];
+}
 
 #pragma mark -
 #pragma mark Actions
@@ -123,7 +130,7 @@
 }
 
 - (void)playSound {
-	NSString *urlAddress = [[NSBundle mainBundle] pathForResource:@"gast" ofType:@"3gp"];
+	NSString *urlAddress = [[NSBundle mainBundle] pathForResource:[SoundController instance].randomSound ofType:@"3gp"];
 	NSURL *url = [NSURL fileURLWithPath:urlAddress];
 	player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];	
 	player.numberOfLoops = 0;
