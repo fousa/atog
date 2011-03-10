@@ -16,6 +16,9 @@
 		6017A02A1327BAD500658AAB /* bluetooth-enabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 6017A0271327BAD500658AAB /* bluetooth-enabled.png */; };
 		6017A02B1327BAD500658AAB /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 6017A0281327BAD500658AAB /* play.png */; };
 		603A4E4E1326800C00F3C2C6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 603A4E4D1326800C00F3C2C6 /* Icon.png */; };
+		603DFC4513299ACF00DF6FF6 /* bluetooth-disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC4313299ACF00DF6FF6 /* bluetooth-disabled@2x.png */; };
+		603DFC4613299ACF00DF6FF6 /* bluetooth-enabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC4413299ACF00DF6FF6 /* bluetooth-enabled@2x.png */; };
+		603DFC4C13299B6F00DF6FF6 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC4B13299B6F00DF6FF6 /* play@2x.png */; };
 		60404D2213269A06004C226B /* atog.png in Resources */ = {isa = PBXBuildFile; fileRef = 60404D2013269A06004C226B /* atog.png */; };
 		60404D2313269A06004C226B /* mouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 60404D2113269A06004C226B /* mouth.png */; };
 		604BD23913298892007A3F69 /* Sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604BD23813298892007A3F69 /* Sounds.plist */; };
@@ -46,6 +49,9 @@
 		6017A0271327BAD500658AAB /* bluetooth-enabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-enabled.png"; path = "Images/bluetooth-enabled.png"; sourceTree = "<group>"; };
 		6017A0281327BAD500658AAB /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Images/play.png; sourceTree = "<group>"; };
 		603A4E4D1326800C00F3C2C6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		603DFC4313299ACF00DF6FF6 /* bluetooth-disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-disabled@2x.png"; path = "Images/bluetooth-disabled@2x.png"; sourceTree = "<group>"; };
+		603DFC4413299ACF00DF6FF6 /* bluetooth-enabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-enabled@2x.png"; path = "Images/bluetooth-enabled@2x.png"; sourceTree = "<group>"; };
+		603DFC4B13299B6F00DF6FF6 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@2x.png"; path = "Images/play@2x.png"; sourceTree = "<group>"; };
 		60404D2013269A06004C226B /* atog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atog.png; path = Images/atog.png; sourceTree = "<group>"; };
 		60404D2113269A06004C226B /* mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mouth.png; path = Images/mouth.png; sourceTree = "<group>"; };
 		604BD23813298892007A3F69 /* Sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sounds.plist; sourceTree = "<group>"; };
@@ -152,6 +158,9 @@
 		605A7E13132509F000032B04 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				603DFC4B13299B6F00DF6FF6 /* play@2x.png */,
+				603DFC4313299ACF00DF6FF6 /* bluetooth-disabled@2x.png */,
+				603DFC4413299ACF00DF6FF6 /* bluetooth-enabled@2x.png */,
 				6017A0261327BAD500658AAB /* bluetooth-disabled.png */,
 				6017A0271327BAD500658AAB /* bluetooth-enabled.png */,
 				6017A0281327BAD500658AAB /* play.png */,
@@ -255,6 +264,9 @@
 				604BD23913298892007A3F69 /* Sounds.plist in Resources */,
 				604BD24813298956007A3F69 /* dude.3gp in Resources */,
 				604BD24913298956007A3F69 /* vent.3gp in Resources */,
+				603DFC4513299ACF00DF6FF6 /* bluetooth-disabled@2x.png in Resources */,
+				603DFC4613299ACF00DF6FF6 /* bluetooth-enabled@2x.png in Resources */,
+				603DFC4C13299B6F00DF6FF6 /* play@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
