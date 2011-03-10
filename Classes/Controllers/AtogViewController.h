@@ -6,11 +6,17 @@
 //  Copyright 2011 10to1. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <GameKit/GameKit.h>
 
-@interface AtogViewController : UIViewController
+@interface AtogViewController : UIViewController <GKPeerPickerControllerDelegate, GKSessionDelegate, AVAudioPlayerDelegate>
+
+@property (nonatomic, retain) IBOutlet UIImageView *mounth;
+@property (nonatomic, retain) IBOutlet UIButton *bluetooth;
+@property (nonatomic, retain) IBOutlet UIButton *play;
 
 - (IBAction)playRandomQuote:(id)sender;
+- (IBAction)connect:(id)sender;
 
 @end
 

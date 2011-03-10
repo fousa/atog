@@ -10,6 +10,8 @@
 
 @implementation AtogAppDelegate
 
+@synthesize window, viewController;
+
 #pragma mark -
 #pragma mark Application lifecycle
 
