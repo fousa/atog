@@ -55,13 +55,16 @@ static SoundController *singletonSoundController = nil;
 }
 
 - (NSString *)randomSound {
-	int value = rand() % [_sounds count];
-	NSString *selectedSound = [_sounds objectAtIndex:value];
-	if ([selectedSound compare:_sound] == NSOrderedSame) {
-		return [self randomSound];
+	if ([_sounds count] > 0) {
+		int value = rand() % [_sounds count];
+		NSString *selectedSound = [_sounds objectAtIndex:value];
+		if ([selectedSound compare:_sound] == NSOrderedSame) {
+			return [self randomSound];
+		}
+		_sound = selectedSound;
 	}
-	_sound = selectedSound;
-	return _sound;
+	
+	return nil;
 }
 
 #pragma mark -

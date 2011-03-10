@@ -57,6 +57,8 @@
 	if (self.session) {
 		[self.session disconnectFromAllPeers];
 		self.session = nil;
+		self.bluetooth.selected = NO;
+		[self stopBlinking];
 	} else {
 		picker = [[GKPeerPickerController alloc] init];
 		picker.delegate = self;
