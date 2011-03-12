@@ -181,7 +181,11 @@
     animation.repeatCount = (int)(duration / (interval * 2));
     animation.autoreverses = YES;
 	animation.fromValue = [NSValue valueWithCGPoint:CGPointMake(0, 0)];
-    animation.toValue = [NSValue valueWithCGPoint:CGPointMake(3, 20)];
+	if (IsIPad()) {
+		animation.toValue = [NSValue valueWithCGPoint:CGPointMake(6.9, 46)];
+	} else {
+		animation.toValue = [NSValue valueWithCGPoint:CGPointMake(3, 20)];
+	}
 	
     [self.mounth.layer addAnimation:animation forKey:@"mouthMovement"];
 }

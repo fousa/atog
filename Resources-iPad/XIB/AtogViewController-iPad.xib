@@ -45,7 +45,7 @@
 					<object class="IBUIImageView" id="393532618">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 480}</string>
+						<string key="NSFrameSize">{756, 1004}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -56,13 +56,13 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">atog.png</string>
+							<string key="NSResourceName">atog-iPad.png</string>
 						</object>
 					</object>
 					<object class="IBUIImageView" id="1032327052">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 480}</string>
+						<string key="NSFrameSize">{756, 1004}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -73,13 +73,13 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">mouth.png</string>
+							<string key="NSResourceName">mouth-iPad.png</string>
 						</object>
 					</object>
 					<object class="IBUIButton" id="1018144837">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{266, 20}, {40, 40}}</string>
+						<string key="NSFrame">{{696, 20}, {40, 40}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -102,20 +102,20 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUIHighlightedImage" id="330591384">
+						<object class="NSCustomResource" key="IBUIHighlightedImage" id="656982488">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">bluetooth-enabled.png</string>
+							<string key="NSResourceName">bluetooth-enabled-iPad.png</string>
 						</object>
-						<reference key="IBUISelectedImage" ref="330591384"/>
+						<reference key="IBUISelectedImage" ref="656982488"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">bluetooth-disabled.png</string>
+							<string key="NSResourceName">bluetooth-disabled-iPad.png</string>
 						</object>
 					</object>
 					<object class="IBUIButton" id="210617986">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{266, 68}, {40, 40}}</string>
+						<string key="NSFrame">{{696, 96}, {40, 40}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -130,11 +130,11 @@
 						<reference key="IBUINormalTitleShadowColor" ref="678252254"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">play.png</string>
+							<string key="NSResourceName">play-iPad.png</string>
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{320, 480}</string>
+				<string key="NSFrameSize">{756, 1004}</string>
 				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -282,13 +282,13 @@
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABDggAAwmgAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABEK8AAwowAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABDggAAwtQAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABEK8AAwxMAAA</bytes>
 					</object>
-					<string>{{161, 100}, {320, 480}}</string>
+					<string>{{90, 4}, {756, 1004}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform"/>
@@ -618,25 +618,25 @@
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../Atog.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../../Atog.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>atog.png</string>
-				<string>bluetooth-disabled.png</string>
-				<string>bluetooth-enabled.png</string>
-				<string>mouth.png</string>
-				<string>play.png</string>
+				<string>atog-iPad.png</string>
+				<string>bluetooth-disabled-iPad.png</string>
+				<string>bluetooth-enabled-iPad.png</string>
+				<string>mouth-iPad.png</string>
+				<string>play-iPad.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{320, 480}</string>
-				<string>{12, 24}</string>
-				<string>{12, 24}</string>
-				<string>{320, 480}</string>
-				<string>{7, 14}</string>
+				<string>{768, 1024}</string>
+				<string>{23, 48}</string>
+				<string>{23, 48}</string>
+				<string>{768, 1024}</string>
+				<string>{14, 28}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">132</string>
