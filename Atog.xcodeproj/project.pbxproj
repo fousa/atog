@@ -19,8 +19,6 @@
 		603DFC4513299ACF00DF6FF6 /* bluetooth-disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC4313299ACF00DF6FF6 /* bluetooth-disabled@2x.png */; };
 		603DFC4613299ACF00DF6FF6 /* bluetooth-enabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC4413299ACF00DF6FF6 /* bluetooth-enabled@2x.png */; };
 		603DFC4C13299B6F00DF6FF6 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC4B13299B6F00DF6FF6 /* play@2x.png */; };
-		603DFC6113299CF000DF6FF6 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC6013299CF000DF6FF6 /* MainWindow-iPad.xib */; };
-		603DFC6C13299DBB00DF6FF6 /* AtogViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC6B13299DBB00DF6FF6 /* AtogViewController-iPad.xib */; };
 		603DFC7213299E3C00DF6FF6 /* bluetooth-disabled-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC6F13299E3C00DF6FF6 /* bluetooth-disabled-iPad.png */; };
 		603DFC7313299E3C00DF6FF6 /* bluetooth-enabled-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC7013299E3C00DF6FF6 /* bluetooth-enabled-iPad.png */; };
 		603DFC7413299E3C00DF6FF6 /* play-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 603DFC7113299E3C00DF6FF6 /* play-iPad.png */; };
@@ -31,8 +29,6 @@
 		604BD24813298956007A3F69 /* dude.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 604BD24613298956007A3F69 /* dude.3gp */; };
 		604BD24913298956007A3F69 /* vent.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 604BD24713298956007A3F69 /* vent.3gp */; };
 		605A7E1F13250A0600032B04 /* AtogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A7E1E13250A0600032B04 /* AtogViewController.m */; };
-		605A7E2313250A2500032B04 /* AtogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2113250A2500032B04 /* AtogViewController.xib */; };
-		605A7E2413250A2500032B04 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2213250A2500032B04 /* MainWindow.xib */; };
 		605A7E2613250A3C00032B04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2513250A3C00032B04 /* Default.png */; };
 		605D4FAB132679A2001C1178 /* gast.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 605D4FAA132679A2001C1178 /* gast.3gp */; };
 		605D4FF813267C26001C1178 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605D4FF713267C26001C1178 /* AVFoundation.framework */; };
@@ -51,6 +47,10 @@
 		60FF02B9132BCEC000F44774 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02B4132BCEC000F44774 /* Icon-Small.png */; };
 		60FF02BA132BCEC000F44774 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02B5132BCEC000F44774 /* Icon-Small@2x.png */; };
 		60FF02BB132BCEC000F44774 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02B6132BCEC000F44774 /* Icon@2x.png */; };
+		60FF02F8132BD41200F44774 /* AtogViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02F3132BD41200F44774 /* AtogViewController-iPad.xib */; };
+		60FF02F9132BD41200F44774 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02F4132BD41200F44774 /* MainWindow-iPad.xib */; };
+		60FF02FA132BD41200F44774 /* AtogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02F6132BD41200F44774 /* AtogViewController.xib */; };
+		60FF02FB132BD41200F44774 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02F7132BD41200F44774 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,8 +69,6 @@
 		603DFC4313299ACF00DF6FF6 /* bluetooth-disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-disabled@2x.png"; path = "Images/bluetooth-disabled@2x.png"; sourceTree = "<group>"; };
 		603DFC4413299ACF00DF6FF6 /* bluetooth-enabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-enabled@2x.png"; path = "Images/bluetooth-enabled@2x.png"; sourceTree = "<group>"; };
 		603DFC4B13299B6F00DF6FF6 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@2x.png"; path = "Images/play@2x.png"; sourceTree = "<group>"; };
-		603DFC6013299CF000DF6FF6 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/XIB/MainWindow-iPad.xib"; sourceTree = "<group>"; };
-		603DFC6B13299DBB00DF6FF6 /* AtogViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "AtogViewController-iPad.xib"; path = "Resources-iPad/XIB/AtogViewController-iPad.xib"; sourceTree = "<group>"; };
 		603DFC6F13299E3C00DF6FF6 /* bluetooth-disabled-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-disabled-iPad.png"; path = "Images/bluetooth-disabled-iPad.png"; sourceTree = "<group>"; };
 		603DFC7013299E3C00DF6FF6 /* bluetooth-enabled-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth-enabled-iPad.png"; path = "Images/bluetooth-enabled-iPad.png"; sourceTree = "<group>"; };
 		603DFC7113299E3C00DF6FF6 /* play-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play-iPad.png"; path = "Images/play-iPad.png"; sourceTree = "<group>"; };
@@ -84,8 +82,6 @@
 		604BD24713298956007A3F69 /* vent.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = vent.3gp; sourceTree = "<group>"; };
 		605A7E1D13250A0600032B04 /* AtogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtogViewController.h; sourceTree = "<group>"; };
 		605A7E1E13250A0600032B04 /* AtogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtogViewController.m; sourceTree = "<group>"; };
-		605A7E2113250A2500032B04 /* AtogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AtogViewController.xib; sourceTree = "<group>"; };
-		605A7E2213250A2500032B04 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		605A7E2513250A3C00032B04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
 		605D4FAA132679A2001C1178 /* gast.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = gast.3gp; sourceTree = "<group>"; };
 		605D4FF713267C26001C1178 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +100,10 @@
 		60FF02B4132BCEC000F44774 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		60FF02B5132BCEC000F44774 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		60FF02B6132BCEC000F44774 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		60FF02F3132BD41200F44774 /* AtogViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "AtogViewController-iPad.xib"; sourceTree = "<group>"; };
+		60FF02F4132BD41200F44774 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		60FF02F6132BD41200F44774 /* AtogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AtogViewController.xib; sourceTree = "<group>"; };
+		60FF02F7132BD41200F44774 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Atog-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Atog-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +149,6 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				603DFC5F13299CF000DF6FF6 /* Resources-iPad */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -168,6 +167,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60FF02F2132BD41200F44774 /* XIB iPad */,
+				60FF02F5132BD41200F44774 /* XIB iPhone */,
 				60FF02B2132BCEC000F44774 /* Icon-72.png */,
 				60FF02B3132BCEC000F44774 /* Icon-Small-50.png */,
 				60FF02B4132BCEC000F44774 /* Icon-Small.png */,
@@ -176,7 +177,6 @@
 				60952521132BCA8800D949CE /* iTunesArtwork */,
 				603A4E4D1326800C00F3C2C6 /* Icon.png */,
 				605D4F9D132678C8001C1178 /* Sounds */,
-				605A7E2013250A2500032B04 /* XIB */,
 				605A7E13132509F000032B04 /* Images */,
 				8D1107310486CEB800E47090 /* Atog-Info.plist */,
 				60FE77BE1328ED330045F50F /* Settings.bundle */,
@@ -196,15 +196,6 @@
 				605D4FF713267C26001C1178 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		603DFC5F13299CF000DF6FF6 /* Resources-iPad */ = {
-			isa = PBXGroup;
-			children = (
-				603DFC6B13299DBB00DF6FF6 /* AtogViewController-iPad.xib */,
-				603DFC6013299CF000DF6FF6 /* MainWindow-iPad.xib */,
-			);
-			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
 		603DFC8513299F9A00DF6FF6 /* Utilities */ = {
@@ -251,15 +242,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		605A7E2013250A2500032B04 /* XIB */ = {
-			isa = PBXGroup;
-			children = (
-				605A7E2113250A2500032B04 /* AtogViewController.xib */,
-				605A7E2213250A2500032B04 /* MainWindow.xib */,
-			);
-			path = XIB;
-			sourceTree = "<group>";
-		};
 		605D4F9D132678C8001C1178 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +250,24 @@
 				605D4FAA132679A2001C1178 /* gast.3gp */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		60FF02F2132BD41200F44774 /* XIB iPad */ = {
+			isa = PBXGroup;
+			children = (
+				60FF02F3132BD41200F44774 /* AtogViewController-iPad.xib */,
+				60FF02F4132BD41200F44774 /* MainWindow-iPad.xib */,
+			);
+			path = "XIB iPad";
+			sourceTree = "<group>";
+		};
+		60FF02F5132BD41200F44774 /* XIB iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				60FF02F6132BD41200F44774 /* AtogViewController.xib */,
+				60FF02F7132BD41200F44774 /* MainWindow.xib */,
+			);
+			path = "XIB iPhone";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +319,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				605A7E2313250A2500032B04 /* AtogViewController.xib in Resources */,
-				605A7E2413250A2500032B04 /* MainWindow.xib in Resources */,
 				605A7E2613250A3C00032B04 /* Default.png in Resources */,
 				605D4FAB132679A2001C1178 /* gast.3gp in Resources */,
 				603A4E4E1326800C00F3C2C6 /* Icon.png in Resources */,
@@ -336,8 +334,6 @@
 				603DFC4513299ACF00DF6FF6 /* bluetooth-disabled@2x.png in Resources */,
 				603DFC4613299ACF00DF6FF6 /* bluetooth-enabled@2x.png in Resources */,
 				603DFC4C13299B6F00DF6FF6 /* play@2x.png in Resources */,
-				603DFC6113299CF000DF6FF6 /* MainWindow-iPad.xib in Resources */,
-				603DFC6C13299DBB00DF6FF6 /* AtogViewController-iPad.xib in Resources */,
 				603DFC7213299E3C00DF6FF6 /* bluetooth-disabled-iPad.png in Resources */,
 				603DFC7313299E3C00DF6FF6 /* bluetooth-enabled-iPad.png in Resources */,
 				603DFC7413299E3C00DF6FF6 /* play-iPad.png in Resources */,
@@ -353,6 +349,10 @@
 				60FF02B9132BCEC000F44774 /* Icon-Small.png in Resources */,
 				60FF02BA132BCEC000F44774 /* Icon-Small@2x.png in Resources */,
 				60FF02BB132BCEC000F44774 /* Icon@2x.png in Resources */,
+				60FF02F8132BD41200F44774 /* AtogViewController-iPad.xib in Resources */,
+				60FF02F9132BD41200F44774 /* MainWindow-iPad.xib in Resources */,
+				60FF02FA132BD41200F44774 /* AtogViewController.xib in Resources */,
+				60FF02FB132BD41200F44774 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
