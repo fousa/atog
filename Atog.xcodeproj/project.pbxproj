@@ -26,11 +26,8 @@
 		60404D2313269A06004C226B /* mouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 60404D2113269A06004C226B /* mouth.png */; };
 		604BD23913298892007A3F69 /* Sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604BD23813298892007A3F69 /* Sounds.plist */; };
 		604BD2451329890F007A3F69 /* SoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BD2441329890F007A3F69 /* SoundController.m */; };
-		604BD24813298956007A3F69 /* dude.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 604BD24613298956007A3F69 /* dude.3gp */; };
-		604BD24913298956007A3F69 /* vent.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 604BD24713298956007A3F69 /* vent.3gp */; };
 		605A7E1F13250A0600032B04 /* AtogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A7E1E13250A0600032B04 /* AtogViewController.m */; };
 		605A7E2613250A3C00032B04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 605A7E2513250A3C00032B04 /* Default.png */; };
-		605D4FAB132679A2001C1178 /* gast.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 605D4FAA132679A2001C1178 /* gast.3gp */; };
 		605D4FF813267C26001C1178 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605D4FF713267C26001C1178 /* AVFoundation.framework */; };
 		6064D40613269C680030C8CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6064D40513269C680030C8CD /* QuartzCore.framework */; };
 		60952508132A7BFB00D949CE /* atog-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 60952502132A7BFB00D949CE /* atog-iPad.png */; };
@@ -40,6 +37,17 @@
 		6095250D132A7BFB00D949CE /* mouth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60952507132A7BFB00D949CE /* mouth@2x.png */; };
 		6095251E132A7CD300D949CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6095251D132A7CD300D949CE /* Default@2x.png */; };
 		60952522132BCA8800D949CE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 60952521132BCA8800D949CE /* iTunesArtwork */; };
+		60C0138913AFB9D1005F3F24 /* cap-deploy.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0137E13AFB9D1005F3F24 /* cap-deploy.3gp */; };
+		60C0138A13AFB9D1005F3F24 /* fooraap.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0137F13AFB9D1005F3F24 /* fooraap.3gp */; };
+		60C0138B13AFB9D1005F3F24 /* graaf.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138013AFB9D1005F3F24 /* graaf.3gp */; };
+		60C0138C13AFB9D1005F3F24 /* hoorntjes.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138113AFB9D1005F3F24 /* hoorntjes.3gp */; };
+		60C0138D13AFB9D1005F3F24 /* kapitein-het-werkt.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138213AFB9D1005F3F24 /* kapitein-het-werkt.3gp */; };
+		60C0138E13AFB9D1005F3F24 /* koffie.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138313AFB9D1005F3F24 /* koffie.3gp */; };
+		60C0138F13AFB9D1005F3F24 /* kust-nu-mijn-kloten.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138413AFB9D1005F3F24 /* kust-nu-mijn-kloten.3gp */; };
+		60C0139013AFB9D1005F3F24 /* lastig.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138513AFB9D1005F3F24 /* lastig.3gp */; };
+		60C0139113AFB9D1005F3F24 /* start.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138613AFB9D1005F3F24 /* start.3gp */; };
+		60C0139213AFB9D1005F3F24 /* strak-plan.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138713AFB9D1005F3F24 /* strak-plan.3gp */; };
+		60C0139313AFB9D1005F3F24 /* wablieft.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 60C0138813AFB9D1005F3F24 /* wablieft.3gp */; };
 		60EA41E01326EBB000A53A18 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EA41DF1326EBB000A53A18 /* GameKit.framework */; };
 		60FE77BF1328ED330045F50F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60FE77BE1328ED330045F50F /* Settings.bundle */; };
 		60FF02B7132BCEC000F44774 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FF02B2132BCEC000F44774 /* Icon-72.png */; };
@@ -78,12 +86,9 @@
 		604BD23813298892007A3F69 /* Sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sounds.plist; sourceTree = "<group>"; };
 		604BD2431329890F007A3F69 /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
 		604BD2441329890F007A3F69 /* SoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundController.m; sourceTree = "<group>"; };
-		604BD24613298956007A3F69 /* dude.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = dude.3gp; sourceTree = "<group>"; };
-		604BD24713298956007A3F69 /* vent.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = vent.3gp; sourceTree = "<group>"; };
 		605A7E1D13250A0600032B04 /* AtogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtogViewController.h; sourceTree = "<group>"; };
 		605A7E1E13250A0600032B04 /* AtogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtogViewController.m; sourceTree = "<group>"; };
 		605A7E2513250A3C00032B04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
-		605D4FAA132679A2001C1178 /* gast.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = gast.3gp; sourceTree = "<group>"; };
 		605D4FF713267C26001C1178 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6064D40513269C680030C8CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		60952502132A7BFB00D949CE /* atog-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atog-iPad.png"; path = "Images/atog-iPad.png"; sourceTree = "<group>"; };
@@ -93,6 +98,17 @@
 		60952507132A7BFB00D949CE /* mouth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mouth@2x.png"; path = "Images/mouth@2x.png"; sourceTree = "<group>"; };
 		6095251D132A7CD300D949CE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
 		60952521132BCA8800D949CE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		60C0137E13AFB9D1005F3F24 /* cap-deploy.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cap-deploy.3gp"; sourceTree = "<group>"; };
+		60C0137F13AFB9D1005F3F24 /* fooraap.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = fooraap.3gp; sourceTree = "<group>"; };
+		60C0138013AFB9D1005F3F24 /* graaf.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = graaf.3gp; sourceTree = "<group>"; };
+		60C0138113AFB9D1005F3F24 /* hoorntjes.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = hoorntjes.3gp; sourceTree = "<group>"; };
+		60C0138213AFB9D1005F3F24 /* kapitein-het-werkt.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kapitein-het-werkt.3gp"; sourceTree = "<group>"; };
+		60C0138313AFB9D1005F3F24 /* koffie.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = koffie.3gp; sourceTree = "<group>"; };
+		60C0138413AFB9D1005F3F24 /* kust-nu-mijn-kloten.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kust-nu-mijn-kloten.3gp"; sourceTree = "<group>"; };
+		60C0138513AFB9D1005F3F24 /* lastig.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = lastig.3gp; sourceTree = "<group>"; };
+		60C0138613AFB9D1005F3F24 /* start.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = start.3gp; sourceTree = "<group>"; };
+		60C0138713AFB9D1005F3F24 /* strak-plan.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "strak-plan.3gp"; sourceTree = "<group>"; };
+		60C0138813AFB9D1005F3F24 /* wablieft.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = wablieft.3gp; sourceTree = "<group>"; };
 		60EA41DF1326EBB000A53A18 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		60FE77BE1328ED330045F50F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		60FF02B2132BCEC000F44774 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -245,9 +261,17 @@
 		605D4F9D132678C8001C1178 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				604BD24613298956007A3F69 /* dude.3gp */,
-				604BD24713298956007A3F69 /* vent.3gp */,
-				605D4FAA132679A2001C1178 /* gast.3gp */,
+				60C0137E13AFB9D1005F3F24 /* cap-deploy.3gp */,
+				60C0137F13AFB9D1005F3F24 /* fooraap.3gp */,
+				60C0138013AFB9D1005F3F24 /* graaf.3gp */,
+				60C0138113AFB9D1005F3F24 /* hoorntjes.3gp */,
+				60C0138213AFB9D1005F3F24 /* kapitein-het-werkt.3gp */,
+				60C0138313AFB9D1005F3F24 /* koffie.3gp */,
+				60C0138413AFB9D1005F3F24 /* kust-nu-mijn-kloten.3gp */,
+				60C0138513AFB9D1005F3F24 /* lastig.3gp */,
+				60C0138613AFB9D1005F3F24 /* start.3gp */,
+				60C0138713AFB9D1005F3F24 /* strak-plan.3gp */,
+				60C0138813AFB9D1005F3F24 /* wablieft.3gp */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -320,7 +344,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				605A7E2613250A3C00032B04 /* Default.png in Resources */,
-				605D4FAB132679A2001C1178 /* gast.3gp in Resources */,
 				603A4E4E1326800C00F3C2C6 /* Icon.png in Resources */,
 				60404D2213269A06004C226B /* atog.png in Resources */,
 				60404D2313269A06004C226B /* mouth.png in Resources */,
@@ -329,8 +352,6 @@
 				6017A02B1327BAD500658AAB /* play.png in Resources */,
 				60FE77BF1328ED330045F50F /* Settings.bundle in Resources */,
 				604BD23913298892007A3F69 /* Sounds.plist in Resources */,
-				604BD24813298956007A3F69 /* dude.3gp in Resources */,
-				604BD24913298956007A3F69 /* vent.3gp in Resources */,
 				603DFC4513299ACF00DF6FF6 /* bluetooth-disabled@2x.png in Resources */,
 				603DFC4613299ACF00DF6FF6 /* bluetooth-enabled@2x.png in Resources */,
 				603DFC4C13299B6F00DF6FF6 /* play@2x.png in Resources */,
@@ -353,6 +374,17 @@
 				60FF02F9132BD41200F44774 /* MainWindow-iPad.xib in Resources */,
 				60FF02FA132BD41200F44774 /* AtogViewController.xib in Resources */,
 				60FF02FB132BD41200F44774 /* MainWindow.xib in Resources */,
+				60C0138913AFB9D1005F3F24 /* cap-deploy.3gp in Resources */,
+				60C0138A13AFB9D1005F3F24 /* fooraap.3gp in Resources */,
+				60C0138B13AFB9D1005F3F24 /* graaf.3gp in Resources */,
+				60C0138C13AFB9D1005F3F24 /* hoorntjes.3gp in Resources */,
+				60C0138D13AFB9D1005F3F24 /* kapitein-het-werkt.3gp in Resources */,
+				60C0138E13AFB9D1005F3F24 /* koffie.3gp in Resources */,
+				60C0138F13AFB9D1005F3F24 /* kust-nu-mijn-kloten.3gp in Resources */,
+				60C0139013AFB9D1005F3F24 /* lastig.3gp in Resources */,
+				60C0139113AFB9D1005F3F24 /* start.3gp in Resources */,
+				60C0139213AFB9D1005F3F24 /* strak-plan.3gp in Resources */,
+				60C0139313AFB9D1005F3F24 /* wablieft.3gp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,12 +418,9 @@
 				GCC_PREFIX_HEADER = Atog_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Atog-Info.plist";
-				OTHER_CFLAGS = (
-					"-Xclang",
-					"-fobjc-nonfragile-abi2",
-				);
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = Atog;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D02BEE84-3E31-48F8-B686-8DE7204B77FE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D233914F-23E5-4A01-9FA9-5C4B6C4480D4";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -409,13 +438,9 @@
 				GCC_PREFIX_HEADER = Atog_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Atog-Info.plist";
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"-Xclang",
-					"-fobjc-nonfragile-abi2",
-				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = Atog;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E0611DB-D087-442F-BEA0-F9118CF619F6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF5D78F-E4DA-4CA0-BE15-AAB4EBE25B82";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -426,12 +451,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jelle Vandebeeck";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jelle Vandebeeck";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "7C835993-15A5-4132-9727-6377C4D257DF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7C835993-15A5-4132-9727-6377C4D257DF";
 				SDKROOT = iphoneos;
 			};
 			name = "Ad Hoc";
@@ -441,19 +469,17 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jelle Vandebeeck";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jelle Vandebeeck";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Atog_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Atog-Info.plist";
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"-Xclang",
-					"-fobjc-nonfragile-abi2",
-				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = Atog;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E0611DB-D087-442F-BEA0-F9118CF619F6";
+				PROVISIONING_PROFILE = "7C835993-15A5-4132-9727-6377C4D257DF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7C835993-15A5-4132-9727-6377C4D257DF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -464,11 +490,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jelle vandebeeck (69SR2FRH8T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jelle vandebeeck (69SR2FRH8T)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "D233914F-23E5-4A01-9FA9-5C4B6C4480D4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D233914F-23E5-4A01-9FA9-5C4B6C4480D4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -477,12 +506,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jelle Vandebeeck";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jelle Vandebeeck";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "DCF5D78F-E4DA-4CA0-BE15-AAB4EBE25B82";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCF5D78F-E4DA-4CA0-BE15-AAB4EBE25B82";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

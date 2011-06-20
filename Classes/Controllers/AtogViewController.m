@@ -32,6 +32,7 @@
 @end
 
 @implementation AtogViewController
+@synthesize session, peerId, mounth, bluetooth, play;
 
 #pragma mark -
 #pragma mark Initialization
@@ -198,7 +199,7 @@
 #pragma mark Memory
 
 - (void)dealloc {
-	mounth = nil;
+	self.mounth = nil;
 	[picker release], picker = nil;
 	
     [super dealloc];

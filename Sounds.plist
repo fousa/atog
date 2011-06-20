@@ -3,22 +3,70 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>filename</key>
-		<string>gast</string>
 		<key>dirty</key>
 		<false/>
+		<key>filename</key>
+		<string>start</string>
 	</dict>
 	<dict>
-		<key>filename</key>
-		<string>vent</string>
-		<key>dirty</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>filename</key>
-		<string>dude</string>
 		<key>dirty</key>
 		<true/>
+		<key>filename</key>
+		<string>fooraap</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>graaf</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>hoorntjes</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>kapitein-het-werkt</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>koffie</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<true/>
+		<key>filename</key>
+		<string>kust-nu-mijn-kloten</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>lastig</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>start</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>strak-plan</string>
+	</dict>
+	<dict>
+		<key>dirty</key>
+		<false/>
+		<key>filename</key>
+		<string>wablieft</string>
 	</dict>
 </array>
 </plist>
