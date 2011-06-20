@@ -15,7 +15,7 @@
 	NSArray *gameData;
 	AVAudioPlayer *player;
 }
-
+@property (nonatomic, retain) UITapGestureRecognizer *tap;
 @property (nonatomic, retain) GKSession *session;
 @property (nonatomic, retain) NSString *peerId;
 @end
@@ -32,13 +32,32 @@
 @end
 
 @implementation AtogViewController
-@synthesize session, peerId, mounth, bluetooth, play;
+@synthesize session, peerId, mounth, bluetooth, tap, face;
 
 #pragma mark -
 #pragma mark Initialization
 
 - (void)viewDidLoad {
 	[SoundController instance];
+    
+    self.tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    self.tap.delegate = self;
+    [self.view addGestureRecognizer:self.tap];
+}
+
+#pragma mark - Gestures
+
+- (void)tap:(UITapGestureRecognizer *)gesture {
+    [self playRandomQuote:gesture];
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
+    if (self.bluetooth.superview != nil) {
+        if ([touch.view isDescendantOfView:self.bluetooth]) {
+            return NO;
+        }
+    }
+    return YES;
 }
 
 #pragma mark -
@@ -122,7 +141,7 @@
 }
 
 - (void)receiveData:(NSData *)data fromPeer:(NSString *)peer inSession:(GKSession *)aSession context:(void *)context {
-	self.play.enabled = NO;
+	self.tap.enabled = NO;
 	
 	NSNumber *duration = [NSKeyedUnarchiver unarchiveObjectWithData:data];
 	
@@ -145,14 +164,14 @@
 	player.delegate = self;
 	[player play];
 	
-	self.play.enabled = NO;
+	self.tap.enabled = NO;
 }
 
 #pragma mark -
 #pragma mark Audio
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
-	self.play.enabled = YES;
+	self.tap.enabled = YES;
 }
 
 #pragma mark -
